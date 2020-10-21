@@ -4,9 +4,11 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qf.pojo.Course;
 import com.qf.pojo.Speaker;
+import com.qf.pojo.Subject;
 import com.qf.pojo.Video;
 import com.qf.service.CourseService;
 import com.qf.service.SpeakerService;
+import com.qf.service.SubjectService;
 import com.qf.service.VideoService;
 import com.qf.utils.VideoQueryVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +33,9 @@ public class VideoController {
 
     @Autowired
     private CourseService courseService;
+
+    @Autowired
+    private SubjectService subjectService;
 
     @RequestMapping("list")
     public String list(Model model, VideoQueryVo videoQueryVo,
@@ -86,5 +91,35 @@ public class VideoController {
     public String delBatchVideos(Integer[] ids){
         int affectedRows = videoService.delBatchVideos(ids);
         return "redirect:/video/list";
+    }
+
+    @RequestMapping("showVideo")
+    public String showVideo(Integer videoId, String subjectName, Model model) {
+
+        List<Subject> subject = subjectService.findBySubjectByName(subjectName);
+        Integer subjectId = subject.get(0).getId();
+        List<Course> course = courseService.findAll(subjectId);
+        System.out.println(course.toString());
+
+        Video video = videoService.findByID(videoId);
+        System.out.println(video.toString());
+
+        Integer courseId = video.getCourseId();
+        List<Subject> subjectList = subjectService.findAll();
+
+        model.addAttribute("subjectList", subjectList);
+        model.addAttribute("subjectName", subjectName);
+        model.addAttribute("video", video);
+        model.addAttribute("course", course.get(0));
+
+        return "/WEB-INF/jsp/before/section.jsp";
+    }
+
+    @RequestMapping("updatePlayNum")
+    public void updatePlayNum(Integer id, Integer playNum) {
+        Video video = videoService.findByID(id);
+        video.setPlayNum(playNum + 1);
+
+        videoService.updateVideo(video);
     }
 }

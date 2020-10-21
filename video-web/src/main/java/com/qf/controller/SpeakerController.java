@@ -37,8 +37,8 @@ public class SpeakerController {
     public String addOrEdit(Integer id, Model model){
         if (null != id) {
             Speaker speaker = speakerService.findByID(id);
-            model.addAttribute("speaker", speaker);
-        }
+        model.addAttribute("speaker", speaker);
+    }
 
         return "forward:/WEB-INF/jsp/behind/addSpeaker.jsp";
     }

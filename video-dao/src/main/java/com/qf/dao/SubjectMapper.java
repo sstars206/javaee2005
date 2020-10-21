@@ -29,4 +29,8 @@ public interface SubjectMapper {
     int updateByPrimaryKeySelective(Subject record);
 
     int updateByPrimaryKey(Subject record);
+
+    List<Subject> findAll();
+
+    Subject findSubjectById(Integer id);
 }

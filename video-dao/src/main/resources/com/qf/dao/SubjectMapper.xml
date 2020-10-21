@@ -4,7 +4,49 @@
   <resultMap id="BaseResultMap" type="com.qf.pojo.Subject" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="subject_name" property="subjectName" jdbcType="VARCHAR" />
+    <collection property="courseList" ofType="com.qf.pojo.Course">
+      <id column="courseId" property="id"></id>
+      <result column="course_title" property="courseTitle"></result>
+      <result column="course_desc" property="courseDesc"></result>
+      <collection property="videoList" ofType="com.qf.pojo.Video">
+        <id column="videoId" property="id"></id>
+        <result column="title" property="title"></result>
+        <result column="detail" property="detail"></result>
+        <result column="time" property="time"></result>
+        <result column="speaker_id" property="speakerId"></result>
+        <result column="course_id" property="courseId"></result>
+        <result column="video_url" property="videoUrl"></result>
+        <result column="image_url" property="imageUrl"></result>
+        <result column="play_num" property="playNum"></result>
+      </collection>
+    </collection>
   </resultMap>
+  <select id="findAll" resultMap="BaseResultMap">
+    select *
+    from subject
+  </select>
+  <select id="findSubjectById" resultMap="BaseResultMap">
+   select
+    s.id,
+    s.subject_name,
+    c.id courseId,
+    c.course_title,
+    c.course_desc,
+    v.id videoId,
+    v.title,
+    v.detail,
+    v.time,
+    v.speaker_id,
+    v.video_url,
+    v.image_url,
+    v.play_num
+from course c
+         inner join subject s
+                    on s.id = c.subject_id
+         inner join video v
+                    on c.id = v.course_id
+where s.id = #{id};
+  </select>
   <sql id="Example_Where_Clause" >
     <where >
       <foreach collection="oredCriteria" item="criteria" separator="or" >

@@ -35,4 +35,6 @@ public interface CourseMapper {
     int updateByPrimaryKeyWithBLOBs(Course record);
 
     int updateByPrimaryKey(Course record);
+
+    List<Course> findAll(Integer subjectId);
 }

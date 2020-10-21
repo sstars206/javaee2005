@@ -10,6 +10,7 @@
     <result column="video_url" property="videoUrl" jdbcType="VARCHAR" />
     <result column="image_url" property="imageUrl" jdbcType="VARCHAR" />
     <result column="play_num" property="playNum" jdbcType="INTEGER" />
+    <result column="detail" property="detail" jdbcType="INTEGER" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.qf.pojo.Video" extends="BaseResultMap" >
     <result column="detail" property="detail" jdbcType="LONGVARCHAR" />

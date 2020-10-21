@@ -21,4 +21,5 @@ public interface VideoService {
 
     int delBatchVideos(Integer[] ids);
 
+
 }

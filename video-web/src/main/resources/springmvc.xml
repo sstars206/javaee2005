@@ -25,23 +25,4 @@
                 <property name="suffix" value=""/>
         </bean>
 
-        <mvc:interceptors>
-                <mvc:interceptor>
-                        <mvc:mapping path="/admin/*"/>
-                        <mvc:mapping path="/speaker/*"/>
-                        <mvc:mapping path="/video/*"/>
-
-                        <mvc:exclude-mapping path="/admin/login"/>
-                        <mvc:exclude-mapping path="/WEB-INF/jsp/behind/login.jsp"/>
-                        <bean class="com.qf.interceptor.AdminInterceptor"/>
-                </mvc:interceptor>
-
-<!--                <mvc:interceptor>-->
-<!--                        <mvc:mapping path="/user/*"/>-->
-<!--                        <mvc:exclude-mapping path="/user/login"/>-->
-<!--                        <mvc:exclude-mapping path="/user/register"/>-->
-<!--                        <mvc:exclude-mapping path="/user/checkName"/>-->
-<!--                        <bean class="com.qf.interceptor.UserInterceptor"/>-->
-<!--                </mvc:interceptor>-->
-        </mvc:interceptors>
 </beans>

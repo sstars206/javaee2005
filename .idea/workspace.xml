@@ -7,269 +7,294 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca3f58d3-e2ae-4801-b9d3-f5f7e1193320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SpeakerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SpeakerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/VideoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/VideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Video.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-dao/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/SpeakerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/SubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/VideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/SpeakerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-utils/target/classes/com/qf/utils/VideoQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/META-INF/video-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/SpeakerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/META-INF/video-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/SpeakerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/change_avatar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/change_profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/course.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/forget_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/my_profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/password_safe.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/reset_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/section.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/addSpeaker.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/addVideo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/speakerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/videoList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/aspectjweaver-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/druid-1.1.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-annotations-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-core-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-databind-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/lombok-1.18.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mybatis-3.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mysql-connector-java-8.0.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/pagehelper-5.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._font" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._forget_password.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/._video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/forget_password.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/css/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/android.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/avatar_lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/bigdata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/footer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/footer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/footer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/footer4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/hl_scroll_left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/html5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/java.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/nav_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/nav_down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/php.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/python.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/qidai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/teacher-wjh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/tele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/ui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/we.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/yzm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/微信公众号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/img/微博公众号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._Jcrop_upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.cityselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._mobile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._readmore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._skin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._vueCourse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/._vueSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/Jcrop_upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/gVerify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.cityselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/._layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/._need" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/need/._layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/readmore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/._default" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/vueCourse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-web/target/video-web/js/vueSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/AdminMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/AdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/CourseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/CourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SpeakerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SpeakerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SubjectMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/SubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/VideoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/dao/VideoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/AdminExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/CourseExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Speaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SpeakerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/SubjectExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/com/qf/pojo/VideoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-dao/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/META-INF/video-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/SpeakerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/VideoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/CourseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/SpeakerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/qf/service/impl/VideoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-utils/target/classes/com/qf/utils/VideoQueryVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/META-INF/video-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/applicationContext-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/SpeakerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/com/qf/controller/VideoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/com/qf/interceptor/AdminInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/META-INF/video-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/applicationContext-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/SpeakerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/controller/VideoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/com/qf/interceptor/AdminInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/404.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/change_avatar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/change_profile.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/course.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/forget_password.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/my_profile.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/password_safe.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/reset_password.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/before/section.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/addSpeaker.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/addVideo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/speakerList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/behind/videoList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/jsp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/aspectjweaver-1.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/druid-1.1.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-annotations-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-core-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jackson-databind-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/javax.mail-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jsqlparser-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/lombok-1.18.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mybatis-3.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mybatis-spring-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/mysql-connector-java-8.0.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/pagehelper-5.1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/lib/video-utils-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/tld/commons.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._font" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._forget_password.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._jquery.Jcrop.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/._video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/._vjs.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/font/vjs.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/forget_password.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/jquery.Jcrop.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/css/video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/images/error.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/android.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/avatar_lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/bigdata.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/error.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/footer1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/footer2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/footer3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/footer4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/footer_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/hl_scroll_left1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/html5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/java.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/left-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/nav_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/nav_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/password.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/php.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/python.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/qidai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/right-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/sc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/teacher-wjh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/tele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/ui.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/we.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/yzm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/微信公众号.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/img/微博公众号.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._Jcrop_upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._axios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._axios.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery-1.8.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.Jcrop.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.cityselect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._mobile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._readmore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._skin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._vueCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/._vueSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/Jcrop_upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/axios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/axios.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/confirm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/gVerify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.8.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery-1.8.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.Jcrop.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.cityselect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/._layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/._need" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/need/._layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/mobile/need/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/readmore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/._default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/._loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/vueCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-web/target/video-web/js/vueSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/SubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/SubjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Speaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/SubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/SubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/VideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SpeakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SpeakerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/java/com/qf/interceptor/AdminInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/resources/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-web/target/classes/applicationContext-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -283,18 +308,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/course.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-572">
+              <caret line="97" column="117" selection-start-line="97" selection-start-column="117" selection-end-line="97" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/CourseMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SubjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>subject</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -304,8 +434,31 @@
         <option value="$PROJECT_DIR$/video-web/pom.xml" />
         <option value="$PROJECT_DIR$/video-dao/pom.xml" />
         <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/video-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SpeakerController.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Subject.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Speaker.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/User.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Course.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Video.java" />
+        <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp" />
+        <option value="$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/course.jsp" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/SubjectMapper.java" />
+        <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/SubjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/video-service/src/main/java/com/qf/service/SubjectService.java" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/SubjectMapper.xml" />
+        <option value="$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/video-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/CourseController.java" />
       </list>
     </option>
   </component>
@@ -324,9 +477,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="45" />
-    <option name="width" value="1630" />
+    <option name="x" value="262" />
+    <option name="y" value="30" />
+    <option name="width" value="1578" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -335,32 +488,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="video-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/git/video-parent" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -467,7 +616,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603176301021</updated>
-      <workItem from="1603176304416" duration="4285000" />
+      <workItem from="1603176304416" duration="10407000" />
+      <workItem from="1603191662370" duration="4980000" />
+      <workItem from="1603239693791" duration="18417000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1603180097869</created>
@@ -476,48 +627,55 @@
       <option name="project" value="LOCAL" />
       <updated>1603180097869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="s">
+      <created>1603180655814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603180655814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4285000" />
+    <option name="totallyTimeSpent" value="33804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32956153" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42917848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32577905" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.18364611" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,86 +685,12 @@
     <MESSAGE value="s" />
     <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/video-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/interceptor/AdminInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/resources/applicationContext-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SpeakerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/TestController.java" />
     <entry file="file://$PROJECT_DIR$/video-utils/src/main/java/com/qf/utils/VideoQueryVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -614,37 +698,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/tld/commons.tld">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="81" column="50" lean-forward="true" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/VideoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/AdminMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -669,17 +722,332 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/SpeakerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/forget_password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SpeakerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/interceptor/AdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/behind/videoList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2893">
+          <caret line="175" column="17" lean-forward="true" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Speaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/change_profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2068">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/password_safe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/reset_password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/my_profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906">
+          <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/SpeakerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/SpeakerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/VideoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/pojo/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2222">
+          <caret line="107" column="105" selection-start-line="107" selection-start-column="105" selection-end-line="107" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/section.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="135" column="65" lean-forward="true" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/SubjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/java/com/qf/dao/SubjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/SubjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/SpeakerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/VideoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-service/src/main/java/com/qf/service/impl/SubjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-dao/src/main/resources/com/qf/dao/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/WEB-INF/jsp/before/course.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="97" column="117" selection-start-line="97" selection-start-column="117" selection-end-line="97" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/resources/applicationContext-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-web/src/main/java/com/qf/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
